@@ -1,9 +1,9 @@
 # deno-sqlite-migrations
-A utility for database migrations with [deno-sqlite].
+A utility for database migrations with [sqlite3].
 
 The module using [user_version] to record the schema version.
 
-[deno-sqlite]: https://github.com/dyedgreen/deno-sqlite
+[sqlite3]: https://github.com/denodrivers/sqlite3
 [user_version]: https://www.sqlite.org/pragma.html#pragma_user_version
 
 ## API
