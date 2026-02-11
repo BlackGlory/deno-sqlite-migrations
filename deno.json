@@ -6,9 +6,9 @@
   "imports": {
     "@src/": "./src/",
     "@blackglory/prelude": "npm:@blackglory/prelude@^0.4.0",
-    "@std/expect": "jsr:@std/expect@^1.0.8",
-    "@std/testing": "jsr:@std/testing@^1.0.5",
-    "@db/sqlite": "jsr:@db/sqlite@^0.12.0"
+    "@std/expect": "jsr:@std/expect@^1.0.17",
+    "@std/testing": "jsr:@std/testing@^1.0.17",
+    "@db/sqlite": "jsr:@db/sqlite@^0.13.0"
   },
   "tasks": {
     "test": "deno test --allow-all"
