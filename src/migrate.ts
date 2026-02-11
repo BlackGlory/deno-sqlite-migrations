@@ -99,7 +99,7 @@ export function migrate(
 function getMaximumVersion(migrations: IMigration[]): number {
   return migrations
     .map(x => x.version)
-    .reduce(max)
+    .reduce(max, 0)
 }
 
 function getDatabaseVersion(db: Database): number {
