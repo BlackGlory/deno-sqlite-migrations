@@ -1,7 +1,6 @@
 {
   "name": "@blackglory/sqlite-migrations",
   "version": "0.2.1",
-  "github": "https://github.com/BlackGlory/deno-sqlite-migrations",
   "license": "MIT",
   "exports": "./mod.ts",
   "imports": {
