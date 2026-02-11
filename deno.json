@@ -8,7 +8,9 @@
     "@blackglory/prelude": "npm:@blackglory/prelude@^0.4.0",
     "@std/expect": "jsr:@std/expect@^1.0.17",
     "@std/testing": "jsr:@std/testing@^1.0.17",
-    "@db/sqlite": "jsr:@db/sqlite@^0.13.0"
+    "@db/sqlite": "jsr:@db/sqlite@^0.13.0",
+    "extra-utils": "npm:extra-utils@^5.20.0",
+    "return-style": "npm:return-style@^3.0.1"
   },
   "tasks": {
     "test": "deno test --allow-all"
