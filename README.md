@@ -6,6 +6,11 @@ The module using [user_version] to record the schema version.
 [sqlite3]: https://github.com/denodrivers/sqlite3
 [user_version]: https://www.sqlite.org/pragma.html#pragma_user_version
 
+## Install
+```sh
+deno add jsr:@blackglory/sqlite-migrations
+```
+
 ## API
 ```ts
 interface IMigration {
