@@ -14,7 +14,9 @@ deno add jsr:@blackglory/sqlite-migrations
 ## API
 ```ts
 interface IMigration {
-  version: number
+  // An integer starting from 1
+  version: number 
+
   up: string | ((db: Database) => void)
   down: string | ((db: Database) => void)
 }
